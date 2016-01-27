@@ -15,3 +15,20 @@ fiveElem.click()
 equaElem = browser.find_element_by_name('DoIt')
 equaElem.click()
 
+divElem = browser.find_element_by_name('div')
+divElem.click()
+
+secElem = browser.find_element_by_name('two')
+secElem.click()
+
+equalElem = browser.find_element_by_name('DoIt')
+equalElem.click()
+
+subElem = browser.find_element_by_name('minus')
+subElem.click()
+
+fourElem = browser.find_element_by_name('four')
+fourElem.click()
+
+equatElem = browser.find_element_by_name('DoIt')
+equatElem.click()
