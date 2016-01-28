@@ -3,77 +3,96 @@ import unittest
 
 def Calc(y):
 
-	browser = webdriver.Firefox()
-	browser.get('http://jeremydomasian.github.io/supercalc_v1-4/SuperCalc-v1.html')
+		browser = webdriver.Firefox()
+		browser.get('http://jeremydomasian.github.io/supercalc_v1-4/SuperCalc-v1.html')
 
-	oneElem = browser.find_element_by_name('one')
-	oneElem.click()
+		oneElem = browser.find_element_by_name('one')
+		oneElem.click()
 
-	plusElem = browser.find_element_by_name('plus')
-	plusElem.click()
+		plusElem = browser.find_element_by_name('plus')
+		plusElem.click()
 
-	fiveElem = browser.find_element_by_name('five')
-	fiveElem.click()
+		fiveElem = browser.find_element_by_name('five')
+		fiveElem.click()
 
-	equaElem = browser.find_element_by_name('DoIt')
-	equaElem.click()
+		equaElem = browser.find_element_by_name('DoIt')
+		equaElem.click()
 
-	cleariElem = browser.find_element_by_name('clear')
-	cleariElem.click()
+	if:
+		name('Input') =< 6
+		pass
 
-	onelElem = browser.find_element_by_name('one')
-	onelElem.click()
+		cleariElem = browser.find_element_by_name('clear')
+		cleariElem.click()
 
-	eightElem = browser.find_element_by_name('eight')
-	eightElem.click()
+		onelElem = browser.find_element_by_name('one')
+		onelElem.click()
 
-	divElem = browser.find_element_by_name('div')
-	divElem.click()
+		eightElem = browser.find_element_by_name('eight')
+		eightElem.click()
 
-	secElem = browser.find_element_by_name('two')
-	secElem.click()
+		divElem = browser.find_element_by_name('div')
+		divElem.click()
 
-	equalElem = browser.find_element_by_name('DoIt')
-	equalElem.click()
+		secElem = browser.find_element_by_name('two')
+		secElem.click()
 
-	clearyElem = browser.find_element_by_name('clear')
-	clearyElem.click()
+		equalElem = browser.find_element_by_name('DoIt')
+		equalElem.click()
 
-	threeElem = browser.find_element_by_name('three')
-	threeElem.click()
+	if :
+		name('Input') =< 9
+		pass
 
-	subElem = browser.find_element_by_name('minus')
-	subElem.click()
+		clearyElem = browser.find_element_by_name('clear')
+		clearyElem.click()
 
-	fourElem = browser.find_element_by_name('four')
-	fourElem.click()
+		threeElem = browser.find_element_by_name('three')
+		threeElem.click()
 
-	equatElem = browser.find_element_by_name('DoIt')
-	equatElem.click()
+		subElem = browser.find_element_by_name('minus')
+		subElem.click()
 
-	clearmElem = browser.find_element_by_name('clear')
-	clearmElem.click()
+		fourElem = browser.find_element_by_name('four')
+		fourElem.click()
 
-	sevenElem = browser.find_element_by_name('seven')
-	sevenElem.click()
+		equatElem = browser.find_element_by_name('DoIt')
+		equatElem.click()
 
-	sixElem = browser.find_element_by_name('six')
-	sixElem.click()
+	if :
+		name('Input') =< -1
+		pass
 
-	nineElem = browser.find_element_by_name('nine')
-	nineElem.click()
+		clearmElem = browser.find_element_by_name('clear')
+		clearmElem.click()
 
-	multElem = browser.find_element_by_name('times')
-	multElem.click()
+		sevenElem = browser.find_element_by_name('seven')
+		sevenElem.click()
 
-	fiveElem = browser.find_element_by_name('five')
-	fiveElem.click()
+		sixElem = browser.find_element_by_name('six')
+		sixElem.click()
 
-	zeroElem = browser.find_element_by_name('zero')
-	zeroElem.click()
+		nineElem = browser.find_element_by_name('nine')
+		nineElem.click()
 
-	equaElem = browser.find_element_by_name('DoIt')
-	equaElem.click()
+		multElem = browser.find_element_by_name('times')
+		multElem.click()
 
-	clearElem = browser.find_element_by_name('clear')
-	clearElem.click()
+		fiveElem = browser.find_element_by_name('five')
+		fiveElem.click()
+
+		zeroElem = browser.find_element_by_name('zero')
+		zeroElem.click()
+
+		equaElem = browser.find_element_by_name('DoIt')
+		equaElem.click()
+
+	if :
+		name('Input') =< 38450
+		pass
+
+		clearElem = browser.find_element_by_name('clear')
+		clearElem.click()
+
+	elif :
+		return False
